@@ -82,6 +82,7 @@ header {
 }
 
 .hero-section .hero-image img:hover{
+    transform: scale(1.075);
     box-shadow: 0px 0px 20px yellow;
     transition: 0.5s;
 }
@@ -100,6 +101,25 @@ header {
 .hero-section .hero-text .hero-socials img{
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+}
+
+.hero-section .hero-text .hero-socials .yt:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px red;
+    transition: 0.5s;
+}
+
+.hero-section .hero-text .hero-socials .fb:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px rgb(0, 119, 255);
+    transition: 0.5s;
+}
+
+.hero-section .hero-text .hero-socials .tr:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px black;
+    transition: 0.5s;
 }
 
 .about-section{
@@ -127,6 +147,7 @@ header {
 }
 
 .about-section .about-image img:hover{
+    transform: scale(1.2);
     box-shadow: 0px 0px 20px yellow;
     transition: 0.5s;
 }
@@ -158,6 +179,12 @@ header {
     border: 4px solid yellow;
     border-radius: 30px;
     padding: 10px 20px;
+}
+
+.separate-qualifications .academic-qualifications:hover, .other-qualifications:hover{
+    transform: scale(1.075);
+    box-shadow: 0px 0px 20px yellow;
+    transition: 0.5s;
 }
 
 .separate-qualifications .academic-qualifications .border, .other-qualifications .border{
@@ -202,6 +229,12 @@ header {
     padding: 10px;
 }
 
+.projects-section .projects-showcase:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px yellow;
+    transition: 0.5s;
+}
+
 .projects-section .projects-showcase h3{
     font-size: 1.5rem;
     color: yellow;
@@ -223,6 +256,7 @@ header {
 } 
 
 .projects-section .projects-showcase button:hover{
+    transform: scale(1.2);
     background-color: yellow;
     box-shadow: 0px 0px 10px yellow;
     color: black;
@@ -252,6 +286,7 @@ header {
 }
 
 .skills-section .skills-showcase:hover{
+    transform: scale(1.05);
     box-shadow: 0px 0px 20px yellow;
     transition: 0.5s;
 }
@@ -294,6 +329,7 @@ header {
 }
 
 .photo-section img:hover{
+    transform: scale(1.1);
     box-shadow: 0px 0px 20px yellow;
     transition: 0.5s;
 }
@@ -326,6 +362,7 @@ header {
 }
 
 .contact-section .info input:focus{
+    transform: scale(1.1);
     background-color: yellow;
     color: black;
     box-shadow: 0px 0px 20px yellow;
@@ -346,6 +383,7 @@ header {
 }
 
 .contact-section .address textarea:focus{
+    transform: scale(1.2);
     background-color: yellow;
     color: black;
     box-shadow: 0px 0px 20px yellow;
@@ -366,6 +404,7 @@ header {
 }
 
 .contact-section .submit input:hover{
+    transform: scale(1.2);
     box-shadow: 0px 0px 20px yellow;
     transition: 0.5s;
 }
