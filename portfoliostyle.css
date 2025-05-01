@@ -6,6 +6,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -94,7 +95,7 @@ header {
 .hero-section .hero-text .hero-socials{
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 10% 10% 10%;
+    grid-template-columns: 10% 10% 10% 10%;
     column-gap: 20px;
 }
 
@@ -119,6 +120,12 @@ header {
 .hero-section .hero-text .hero-socials .tr:hover{
     transform: scale(1.2);
     box-shadow: 0px 0px 20px black;
+    transition: 0.5s;
+}
+
+.hero-section .hero-text .hero-socials .gh:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px rgb(62, 62, 169);
     transition: 0.5s;
 }
 
@@ -210,10 +217,19 @@ header {
 
 .projects-section{
     background-image: url("portfolioimages/bg7.jpg");
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
     background-size: cover;
-    padding: 20px 120px;
+    padding: 20px 0px;
     color: white;
     text-align: center;
+    align-items: center;
+}
+
+.projects-section .projects-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
 }
 
 .projects-section h2{
@@ -222,12 +238,28 @@ header {
     text-transform: uppercase;
 }
 
-.projects-section .projects-showcase{
-    width: 80%;
+.projects-section .projects-flex .projects-showcase{
+    width: 70%;
     border: 5px solid yellow;
     border-radius: 50px;
-    margin: 20px 150px;
+    margin: 20px 100px;
     padding: 10px;
+}
+
+.projects-section .projects-flex .projects-firstcolumn{
+    width: 93%;
+}
+
+.projects-section .projects-flex .projects-secondcolumn{
+    margin-right: -100px;
+}
+
+.projects-section .projects-flex .projects-showcase img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: -12px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .projects-section .projects-showcase:hover{
