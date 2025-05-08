@@ -228,7 +228,7 @@ header {
 
 .projects-section .projects-flex{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: auto;
 }
 
@@ -247,11 +247,12 @@ header {
 }
 
 .projects-section .projects-flex .projects-firstcolumn{
-    width: 93%;
+    width: 88%;
+    margin-left: 8vh;
 }
 
 .projects-section .projects-flex .projects-secondcolumn{
-    margin-right: -100px;
+   width: 80%;
 }
 
 .projects-section .projects-flex .projects-showcase img{
